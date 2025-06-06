@@ -1,5 +1,4 @@
-
- # 🌍 WebGIS-Live-Tracking
+# 🌍 WebGIS-Live-Tracking
 
 WebGIS-Live-Tracking adalah aplikasi peta interaktif berbasis Leaflet yang menampilkan:
 
@@ -44,7 +43,7 @@ Cocok jika hanya ingin demo peta, lokasi sendiri, dan fitur POI.
    ```bash
    cd WebGIS-Live-Tracking
    ```
-3. Jalankan `index.html` di browser (klik 2x atau pakai Live Server)
+3. Jalankan `index.html` dari folder `public` di browser (klik 2x atau pakai Live Server)
 
 👍 Semua fitur frontend berjalan
 🚫 Tidak ada fitur realtime antar pengguna
@@ -102,29 +101,20 @@ Fitur **live-tracking antar user membutuhkan backend WebSocket (Node.js + socket
 
 ---
 
-## 📁 Struktur Folder
+## 📁 Struktur Folder Realtime
 
 ```
-WebGIS-Live-Tracking/
-├── index.html
-├── script.js
-├── style.css
-├── server.js           ← untuk fitur realtime
+WEBGIS-REALTIME/
+├── node_modules/
+├── public/
+│   ├── index.html
+│   ├── script.js
+│   ├── style.css
 ├── package.json
-├── icons/
-├── data/
-└── README.md
+├── package-lock.json
+├── README.md
+├── server.js
 ```
-
----
-
-## 🙌 Credits
-
-* Leaflet.js
-* Leaflet Control Geocoder
-* Overpass API (OpenStreetMap)
-* Leaflet Rotated Marker
-* Socket.io
 
 ---
 
@@ -132,4 +122,3 @@ WebGIS-Live-Tracking/
 
 **Fahmi Alan**
 WebGIS Hobbyist & Developer
-
