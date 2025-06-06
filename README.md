@@ -46,6 +46,7 @@ Cocok jika hanya ingin demo peta, lokasi sendiri, dan fitur POI.
 3. Jalankan `index.html` dari folder `public` di browser (klik 2x atau pakai Live Server)
 
 👍 Semua fitur frontend berjalan
+
 🚫 Tidak ada fitur realtime antar pengguna
 
 Dapat diliat pada gambar di bawah ini dimana tidak ada pin lokasi untuk menunjukan lokasi keberadaan user
@@ -82,7 +83,7 @@ Butuh backend (`Node.js` + `socket.io`)
    ```
 6. Jalankan di 2 tab/laptop untuk melihat fitur multi-user realtime 🚀
 
-Dapat diliat pada gambar di bawah ini dimana ada pin lokasi untuk menunjukan lokasi keberadaan user
+Dapat diliat pada gambar di bawah ini dimana ada pin lokasi untuk menunjukan lokasi keberadaan user secara realtime
 <img src="gambar/realtime.png" width="900">
 
 ---
@@ -107,7 +108,7 @@ Fitur **live-tracking antar user membutuhkan backend WebSocket (Node.js + socket
 
 ---
 
-## 📁 Struktur Folder
+## 📁 Struktur Folder Realtime
 
 ```
 WEBGIS-REALTIME/
@@ -121,16 +122,6 @@ WEBGIS-REALTIME/
 ├── README.md
 ├── server.js
 ```
-
----
-
-## 🙌 Credits
-
-* Leaflet.js
-* Leaflet Control Geocoder
-* Overpass API (OpenStreetMap)
-* Leaflet Rotated Marker
-* Socket.io
 
 ---
 
