@@ -47,6 +47,8 @@ Cocok jika hanya ingin demo peta, lokasi sendiri, dan fitur POI.
 
 👍 Semua fitur frontend berjalan
 🚫 Tidak ada fitur realtime antar pengguna
+dapat diliat pada gambar di bawah ini dimana tidak ada pin lokasi untuk menunjukan lokasi keberadaan user
+<img src="gambar/norealtime.png" width="900">
 
 ---
 
