@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>WebGIS Live Tracking</title>
+
+  <!-- CSS lokal -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <!-- Geocoder CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css"
+  />
+</head>
+<body>
+  <h2>WebGIS Live Tracking</h2>
+
+  <!-- PETA -->
+  <div id="map"></div>
+
+  <!-- 🧭 Kompas -->
+  <div id="compass"><div id="compass-arrow"></div></div>
+
+  <!-- 🚩 BAR KATEGORI POI -->
+  <div id="category-bar">
+    <button class="cat-btn" data-tag="restaurant">🍽 Restoran</button>
+    <button class="cat-btn" data-tag="atm">🏧 ATM</button>
+    <button class="cat-btn" data-tag="fuel">⛽ SPBU</button>
+    <button class="cat-btn" data-tag="hospital">🏥 RS</button>
+  </div>
+
+  <!-- ===== Script urutan penting ===== -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://rawcdn.githack.com/bbecquet/Leaflet.RotatedMarker/master/leaflet.rotatedMarker.js"></script>
+  <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
