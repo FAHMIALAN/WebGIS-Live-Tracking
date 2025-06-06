@@ -46,6 +46,7 @@ Cocok jika hanya ingin demo peta, lokasi sendiri, dan fitur POI.
 3. Jalankan `index.html` dari folder `public` di browser (klik 2x atau pakai Live Server)
 
 👍 Semua fitur frontend berjalan
+
 🚫 Tidak ada fitur realtime antar pengguna
 
 Dapat diliat pada gambar di bawah ini dimana tidak ada pin lokasi untuk menunjukan lokasi keberadaan user
